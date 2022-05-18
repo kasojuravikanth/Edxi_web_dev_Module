@@ -1,0 +1,28 @@
+{
+  "name": "@rk/edxi_web_module",
+  "version": "1.0.0",
+  "description": "Edxi web Component module",
+  "main": "src/Kpi.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasojuravikanth/Edxi_web_dev_Module.git"
+  },
+  "keywords": [
+    "ewm"
+  ],
+  "author": "Ravikanth_k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasojuravikanth/Edxi_web_dev_Module/issues"
+  },
+  "homepage": "https://github.com/kasojuravikanth/Edxi_web_dev_Module#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}
