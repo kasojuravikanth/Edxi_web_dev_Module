@@ -1,40 +1,40 @@
 {
-  "name": "edxi_web_module",
-  "version": "1.0.1",
-  "description": "Edxi web Component module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "files": [
-    "dist"
-  ],
-  "scripts": {
-    "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kasojuravikanth/Edxi_web_dev_Module.git"
-  },
-  "keywords": [
-    "ewm"
-  ],
-  "author": "Ravikanth_k",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kasojuravikanth/Edxi_web_dev_Module/issues"
-  },
-  "homepage": "https://github.com/kasojuravikanth/Edxi_web_dev_Module#readme",
-  "devDependencies": {
-    "@types/node": "^17.0.21",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "typescript": "^4.5.2"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "name": "edxi_web_module",
+    "version": "1.0.1",
+    "description": "Edxi web Component module",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
+        "build:esm": "tsc",
+        "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kasojuravikanth/Edxi_web_dev_Module.git"
+    },
+    "keywords": [
+        "ewm"
+    ],
+    "author": "Ravikanth_k",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kasojuravikanth/Edxi_web_dev_Module/issues"
+    },
+    "homepage": "https://github.com/kasojuravikanth/Edxi_web_dev_Module#readme",
+    "devDependencies": {
+        "@types/node": "^17.0.21",
+        "@types/react": "^17.0.37",
+        "@types/react-dom": "^17.0.11",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "typescript": "^4.5.2"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    }
 }
